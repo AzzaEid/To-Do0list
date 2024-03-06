@@ -4,7 +4,11 @@
   font-weight: 400;
   font-style: normal;
 }
-
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 
 * {
   margin: 0;
@@ -140,5 +144,23 @@
     color:#cf1f6b;
     margin-top: 10px;
   }
+  @media screen and (max-width: 760px) {
+    .To-Do{
+      margin: auto;
+      width: 85%;
+  }
+  }
+  @media screen and (max-width: 450px) {
+    h1 {
+      font-size: 28px;
+    }
+    .row{
+      gap: 5px;
+    }  .To-Do{
+      margin: auto;
+      width: 95%;
+      padding: 20px 30px;
+  }
 
+  }
  
